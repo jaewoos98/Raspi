@@ -7,7 +7,7 @@ int main()
 	pinMode(7, OUTPUT);	// 7,8,9번은 OUT 2번은 IN
 	pinMode(8, OUTPUT);
 	pinMode(9, OUTPUT);
-	pinMode(2, INPUT);
+	pinMode(3, INPUT);
 
 	digitalWrite(7, HIGH);
 	delay(500);

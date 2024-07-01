@@ -3,20 +3,20 @@
 #include <stdlib.h>
 #include <signal.h>
 
-#define RED		 7
-#define GREEN	 8
-#define YELLOW	 9
-#define SW1		 1
-#define SW2		 2
+#define RED			 7
+#define GREEN		 8
+#define YELLOW		 9
+#define SW1			 1
+#define SW2		 	 2 
 
 int mode = 0;
 int intv = 0;						// delay time of interval
 int time;
-int ps[40];							// pin number : 40, pin status array , default status : 0
+int ps[40];	                  // pin number : 40, pin status array , default status : 0
 
 void toggle(int pin)	
 {
-	ps[pin] = !ps[pin];				// reverse the status
+	ps[pin] = !ps[pin];			// reverse the status
 	digitalWrite(pin, ps[pin]);	
 }
 

@@ -4,7 +4,7 @@
 #define RED		 7
 #define GREEN	 8
 #define YELLOW	 9
-#define SW		 2
+#define SW	 	 2 
 
 
 int mode = 0;
