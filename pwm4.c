@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <wiringPi.h>
-
+// Hardware PWM
 #define wPi_PWM1 23
 
 int main()

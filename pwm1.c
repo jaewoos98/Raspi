@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <wiringPi.h>
-
+//GPIO PWM
 #define wPi_22		22			// wPi number 22번 사용
 // LED 밝기조절
 int main(int n, char *s[])
