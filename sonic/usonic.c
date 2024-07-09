@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	
 	while(1)
 	{
-		printf("Distance : %f(cm)\n", Dist());
+		printf("Distance : %.2f(cm)\n", Dist());
 		delay(500);
 	}
 
