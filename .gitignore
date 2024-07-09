@@ -33,3 +33,9 @@
 
 # All with no extension
 *
+
+# Unignore all wtih extensions
+!*.*
+
+# Unignore all dirs
+!*/
