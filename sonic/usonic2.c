@@ -27,7 +27,7 @@ int main(int n, char *s[])
 
 	}
 			
-	wiringPiSetup();						// wiringPi pin number 사용 선언	
+	wiringPiSetup();						// wiringPi pin number 사용선언	
 	pinMode(wPi_Pin, OUTPUT);
 
 	pwmSetMode(PWM_MODE_MS);				// 일반적인 PWM 모드 사용

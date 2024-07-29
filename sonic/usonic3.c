@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <wiringPi.h>
+#include <softPwm.h>
 // 학교종 노래 부저로 만들기
 #define wPi_PWM1 23
 int PSC = 19;			// prescaler

@@ -4,7 +4,7 @@
 #define TRIG	8
 #define ECHO	9
 //Dist 함수는 us.c   안에 있음
-//실행파일은 uu
+
 extern double Dist();
 
 int main(int argc, char **argv)
